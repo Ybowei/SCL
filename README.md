@@ -69,5 +69,5 @@ Please refer to their respective installation instructions. Make sure both envir
 * We provided both the base-trained models and novel-finetuning models for the both two benchmarks. The model links are [Baidu Drive]().
 
  ## 👏 Acknowledgement
-* This repo is developed based on [Attention-RPN](https://github.com/fanq15/FewX), [TFA](https://github.com/ucbdrive/few-shot-object-detection), and [mmfewshot](https://github.com/open-mmlab/mmfewshot/tree/main). Thanks for their wonderful codebases.
+* This repo is developed based on [TFA](https://github.com/ucbdrive/few-shot-object-detection), [LLaVA](https://github.com/haotian-liu/LLaVA), [RemoteCLIP](https://github.com/ChenDelong1999/RemoteCLIP), and [mmfewshot](https://github.com/open-mmlab/mmfewshot/tree/main). Thanks for their wonderful codebases.
 
