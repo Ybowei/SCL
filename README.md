@@ -17,6 +17,7 @@ The code for paper "Semantic Contrastive Learning via VLM for Few-Shot Object De
   * Data Preparation
   * Model training and evaluation on DIOR and NWPU VHR-10.v2
     * Base training
+    * Generation of contrastive knowledge dictionary
     * Model Fine-tuning
     * Evaluation
   * Model Zoo
@@ -37,13 +38,14 @@ Please refer to their respective installation instructions. Make sure both envir
 * **Weights:** Pretraing models
 * **Data:** Datasets for base training and finetuning
 * **mmfewshot:** Model framework
-* **Tools:** analysis and visualize tools
+* **Script:** Code for the SGG modules
+* **Tools:** Analysis and visualize tools
 
 ## 💾 Data Preparation
 
 * Our model is evaluated on two FSOD benchmarks DIOR and NWPU-VHR following the previous work [TFA](https://github.com/ucbdrive/few-shot-object-detection).
 * Please prepare the original [DIOR](https://pan.baidu.com/s/1iLKT0JQoKXEJTGNxt5lSMg#list/path=%2F) and [NWPU VHR-10.v2](https://pan.baidu.com/s/1hqwzXeG?_at_=1728709381194#list/path=%2F) datasets and also the few-shot datasets in the folder ./data/dior and ./data/nwpu_vhr respectively.
-* please refer to [Data Preparation](https://github.com/Ybowei/UNP/blob/main/data/preparation/README.md) for more detail in the few-shot setting.
+* Please refer to [Data Preparation](https://github.com/Ybowei/UNP/blob/main/data/preparation/README.md) for more detail in the few-shot setting.
 
 ## 📖 Model training and evaluation on the both DIOR and NWPU VHR-10.v2
 
