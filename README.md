@@ -27,15 +27,7 @@ The code for paper "Semantic Contrastive Learning via VLM for Few-Shot Object De
 Our main code is based on [MMFewShot](https://github.com/open-mmlab/mmfewshot/tree/main) and please refer to [Install.md](https://github.com/open-mmlab/mmfewshot/blob/main/docs/en/install.md) for installation of MMFewShot framwork. 
 Please note that we used detectron 0.1.0 in this project. Higher versions of detectron might report errors. 
 In addition, the Semantic Guidance Generator (SGG) module is built upon the following two open-source projects: [LLaVA].(https://github.com/haotian-liu/LLaVA) and [RemoteCLIP].(https://github.com/ChenDelong1999/RemoteCLIP).
-Please refer to their respective installation instructions:
-# For LLaVA
-# Visit https://github.com/haotian-liu/LLaVA
-# Follow the installation guide in `docs/INSTALL.md` or the project README.
-
-# For RemoteCLIP
-# Visit https://github.com/ChenDelong1999/RemoteCLIP
-# Follow the steps provided in the repository for environment setup.
-Make sure both environments are correctly configured before using the SGG module.
+Please refer to their respective installation instructions. Make sure both environments are correctly configured before using the SGG module.
 
 
 ## 🏰 Code Structure
