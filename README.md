@@ -10,7 +10,7 @@ The code for paper "Semantic Contrastive Learning via VLM for Few-Shot Object De
 
 ## 📑 Table of Contents
 
-* Global-integrated and Drift-rectified Imprinting for Few-Shot Remote Sensing Object Detection
+* Semantic Contrastive Learning via VLM for Few-Shot Object Detection in Remote Sensing Image
   * Table of Contents
   * Installation
   * Code Structure
